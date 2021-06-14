@@ -3890,8 +3890,6 @@ payload:
   - DOMAIN-SUFFIX,jwplayer.com
   - DOMAIN-SUFFIX,jwpltx.com
   - DOMAIN-SUFFIX,jwpsrv.com
-  ## > KickASS
-  - DOMAIN-SUFFIX,kastatus.com
   ## > Kakao
   - DOMAIN-SUFFIX,kakao.com
   - DOMAIN-SUFFIX,kakao.co.kr
@@ -3908,6 +3906,9 @@ payload:
   - IP-CIDR,27.0.236.0/22,no-resolve
   # >> Potplayer
   - DOMAIN-SUFFIX,daumpotplayer.com
+  - DOMAIN-SUFFIX,potplayer.tv
+  ## > KickASS
+  - DOMAIN-SUFFIX,kastatus.com
   ## > Kingkonglive
   - DOMAIN-SUFFIX,kingkong.com.tw
   - DOMAIN-SUFFIX,kingkongapp.com
@@ -7161,6 +7162,7 @@ payload:
   - DOMAIN-SUFFIX,cbc.ca
   - DOMAIN-SUFFIX,cbs.ntu.edu.tw
   - DOMAIN-SUFFIX,cbtc.org.hk
+  - DOMAIN-SUFFIX,ccc.de
   - DOMAIN-SUFFIX,cccat.cc
   - DOMAIN-SUFFIX,cccat.co
   - DOMAIN-SUFFIX,cccat.io

@@ -791,6 +791,7 @@ payload:
   - IP-CIDR,27.0.236.0/22,no-resolve
   # >> Potplayer
   - DOMAIN-SUFFIX,daumpotplayer.com
+  - DOMAIN-SUFFIX,potplayer.tv
   ## > Kantv
   - DOMAIN-SUFFIX,imkan.tv
   ## > KKBOX
