@@ -634,6 +634,9 @@ DOMAIN-SUFFIX,myfoxsanfran.com
 ## > friDay
 DOMAIN-SUFFIX,fetnet.net
 DOMAIN-SUFFIX,friday.tw
+## > FuboTV
+DOMAIN-SUFFIX,fubo.tv
+DOMAIN-SUFFIX,fubotv.com
 ## > HBO GO HKG & HBO MAX
 PROCESS-NAME,com.hbo.hbonow
 USER-AGENT,HBO%20NOW*

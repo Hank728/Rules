@@ -62,6 +62,8 @@
 
 - # [friDay](https://github.com/LM-Firefly/Rules/blob/master/Clash-RuleSet-Classical/Global-Services/friDay.yaml)
 
+- # [FuboTV](https://github.com/LM-Firefly/Rules/blob/master/Clash-RuleSet-Classical/Global-Services/FuboTV.yaml)
+
 - # [HBO NOW & HBO GO HKG](https://github.com/LM-Firefly/Rules/blob/master/Clash-RuleSet-Classical/Global-Services/HBO.yaml)
 
 - # [Huffpost](https://github.com/LM-Firefly/Rules/blob/master/Clash-RuleSet-Classical/Global-Services/Huffpost.yaml)

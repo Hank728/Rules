@@ -629,6 +629,9 @@ payload:
   ## > friDay
   - DOMAIN-SUFFIX,fetnet.net
   - DOMAIN-SUFFIX,friday.tw
+  ## > FuboTV
+  - DOMAIN-SUFFIX,fubo.tv
+  - DOMAIN-SUFFIX,fubotv.com
   ## > HBO GO HKG & HBO MAX
   - PROCESS-NAME,com.hbo.hbonow
   - DOMAIN-SUFFIX,cinemax.com
