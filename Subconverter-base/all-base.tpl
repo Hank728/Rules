@@ -151,6 +151,7 @@ dns:
     - https://dns.pub/dns-query
     - https://dns.cfiec.net/dns-query
     - https://dns.rubyfish.cn/dns-query
+    - https://doh.mullvad.net/dns-query
 #    - https://cdn-doh.ssnm.xyz/dns-query
 #    - tls://dns.233py.com
 #    - https://dns.233py.com/dns-query
@@ -174,6 +175,7 @@ dns:
     - https://doh.opendns.com/dns-query
     - https://dns.233py.com/dns-query
     - https://public.dns.iij.jp/dns-query
+    - https://doh.mullvad.net/dns-query
 #    - https://doh.qis.io/dns-query
 #    - https://dns-unfiltered.adguard.com/dns-query
 #    - https://dns.quad9.net/dns-query
