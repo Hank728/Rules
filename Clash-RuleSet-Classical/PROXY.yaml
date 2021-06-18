@@ -1740,6 +1740,10 @@ payload:
   - DOMAIN-SUFFIX,compose-spec.io
   - DOMAIN,d1q6f0aelx0por.cloudfront.net
   - DOMAIN,d36jcksde1wxzq.cloudfront.net
+  ## > Dood
+  - DOMAIN-SUFFIX,dood.so
+  - DOMAIN-SUFFIX,dood.video
+  - DOMAIN-SUFFIX,doodcdn.com
   ## > Dropbox
   - DOMAIN-SUFFIX,db.tt
   - DOMAIN-SUFFIX,dropbox.com
