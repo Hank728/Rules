@@ -5367,6 +5367,17 @@ IP-CIDR6,2001:b28:f23f:f005::a/128,no-resolve
 ## > Telekom
 DOMAIN-SUFFIX,telekom.com
 DOMAIN-SUFFIX,telekom.de
+## > Tesla
+DOMAIN-SUFFIX,solarcity.com
+DOMAIN-SUFFIX,tesla.cn
+DOMAIN-SUFFIX,tesla.com
+DOMAIN-SUFFIX,tesla.com.cn
+DOMAIN-SUFFIX,teslamotors.cn
+DOMAIN-SUFFIX,teslamotors.com
+DOMAIN-SUFFIX,teslamotors.com.cn
+DOMAIN-SUFFIX,ts.la
+DOMAIN,tesla-cdn.thron.cn
+DOMAIN,tesla-cdn.thron.com
 ## > Thomson Reuters (湯森路透)
 DOMAIN-SUFFIX,aranzadi.es
 DOMAIN-SUFFIX,corepublishingsolutions.com
