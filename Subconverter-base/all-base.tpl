@@ -202,22 +202,27 @@ dns:
 {% if request.target == "surge" %}
 
 [General]
+ipv6 = false
 loglevel = notify
-internet-test-url = http://connectivitycheck.gstatic.com/generate_204
-proxy-test-url = http://connectivitycheck.gstatic.com/generate_204
-test-timeout = 3
-socks5-listen = 8828
 http-listen = 8829
+socks5-listen = 8828
 allow-wifi-access = true
 wifi-access-http-port = 8838
 wifi-access-socks5-port = 8839
 external-controller-access = 6170@0.0.0.0:6155
-skip-proxy = 10.0.0.0/8, 127.0.0.0/8, 169.254.0.0/16, 192.0.2.0/24, 192.168.0.0/16, 198.51.100.0/24, 224.0.0.0/4, *.local, localhostlocal,::ffff:0:0:0:0/1,::ffff:128:0:0:0/1
-exclude-simple-hostnames = true
-tls-provider = openssl
-force-http-engine-hosts = 122.14.246.33, 175.102.178.52, mobile-api2011.elong.com
-tun-excluded-routes = 10.0.0.0/8, 127.0.0.0/8, 169.254.0.0/16, 192.0.2.0/24, 192.168.0.0/16, 198.51.100.0/24, 224.0.0.0/4
 dns-server = 119.29.29.29, 223.5.5.5
+doh-server = https://9.9.9.9/dns-query, https://dns.alidns.com/dns-query, https://i.233py.com/dns-query, https://doh.pub/dns-query, https://dns.pub/dns-query, https://dns.cfiec.net/dns-query, https://dns.rubyfish.cn/dns-query, https://doh.mullvad.net/dns-query, https://doh.dns.sb/dns-query, https://dns.twnic.tw/dns-query, https://doh.opendns.com/dns-query, https://dns.233py.com/dns-query, https://public.dns.iij.jp/dns-query, https://doh.mullvad.net/dns-query
+hijack-dns = 8.8.8.8:53
+always-real-ip = *.lan, *.localdomain, *.example, *.invalid, *.localhost, *.test, *.local, *.home.arpa, *.linksys.com, *.linksyssmartwifi.com, *.router.asus.com, swscan.apple.com, mesu.apple.com, *.msftconnecttest.com, *.msftncsi.com, msftconnecttest.com, msftncsi.com, lens.l.google.com, stun.l.google.com, proxy.golang.org, time.*.com, time.*.gov, time.*.edu.cn, time.*.apple.com, time1.*.com, time2.*.com, time3.*.com, time4.*.com, time5.*.com, time6.*.com, time7.*.com, ntp.*.com, ntp1.*.com, ntp2.*.com, ntp3.*.com, ntp4.*.com, ntp5.*.com, ntp6.*.com, ntp7.*.com, *.time.edu.cn, *.ntp.org.cn, *.pool.ntp.org, time1.cloud.tencent.com, *.srv.nintendo.net, *.stun.playstation.net, xbox.*.microsoft.com, xnotify.xboxlive.com, localhost.ptlogin2.qq.com, localhost.sec.qq.com, stun.*.*, stun.*.*.*, *.stun.*.*, *.stun.*.*.*, *.stun.*.*.*.*
+tun-excluded-routes = 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12
+tun-included-routes = 192.168.1.12/32
+tls-provider = openssl
+exclude-simple-hostnames = true
+skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local
+force-http-engine-hosts = 122.14.246.33, 175.102.178.52, mobile-api2011.elong.com
+internet-test-url = http://cp.cloudflare.com
+proxy-test-url = http://cp.cloudflare.com
+test-timeout = 3
 
 [Replica]
 hide-apple-request=1
@@ -321,8 +326,8 @@ STATE,AUTO
 dns_exclusion_list = *.cmbchina.com, *.cmpassport.com, *.jegotrip.com.cn, *.icitymobile.mobi, *.pingan.com.cn, id6.me
 excluded_routes=10.0.0.0/8, 127.0.0.0/8, 169.254.0.0/16, 192.0.2.0/24, 192.168.0.0/16, 198.51.100.0/24, 224.0.0.0/4
 geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://github.com/KOP-XIAO/QuantumultX/raw/master/Scripts/IP_API.js
-network_check_url=http://connectivitycheck.gstatic.com/generate_204
-server_check_url=http://connectivitycheck.gstatic.com/generate_204
+network_check_url=http://cp.cloudflare.com
+server_check_url=http://cp.cloudflare.com
 
 [dns]
 server=119.29.29.29
@@ -409,8 +414,8 @@ socks-port = 8829
 wifi-access-http-port=8838
 wifi-access-socks5-port=8839
 test-timeout = 5
-internet-test-url = http://connectivitycheck.gstatic.com/generate_204
-proxy-test-url = http://connectivitycheck.gstatic.com/generate_204
+internet-test-url = http://cp.cloudflare.com
+proxy-test-url = http://cp.cloudflare.com
 
 {% endif %}
 {% if request.target == "sssub" %}
