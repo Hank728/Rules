@@ -32,6 +32,8 @@
 
 - # [CNN](https://github.com/LM-Firefly/Rules/blob/master/Clash-RuleSet-Classical/Global-Services/CNN.yaml)
 
+- # [CWSeed](https://github.com/LM-Firefly/Rules/blob/master/Clash-RuleSet-Classical/Global-Services/CWSeed.yaml)
+
 - # [Dailymotion](https://github.com/LM-Firefly/Rules/blob/master/Clash-RuleSet-Classical/Global-Services/Dailymotion.yaml)
 
 - # [DAZN](https://github.com/LM-Firefly/Rules/blob/master/Clash-RuleSet-Classical/Global-Services/DAZN.yaml)

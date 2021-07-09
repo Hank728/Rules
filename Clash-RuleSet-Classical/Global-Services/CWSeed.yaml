@@ -1,0 +1,5 @@
+payload:
+  ## > CW Seed
+  - DOMAIN-SUFFIX,cwseed.com
+  - DOMAIN-SUFFIX,cwtv.com
+  - DOMAIN-SUFFIX,thecwvideo.com

@@ -32,6 +32,8 @@
 
 - # [CNN](https://github.com/LM-Firefly/Rules/blob/master/Global-Services/CNN.list)
 
+- # [CWSeed](https://github.com/LM-Firefly/Rules/blob/master/Global-Services/CWSeed.list)
+
 - # [Dailymotion](https://github.com/LM-Firefly/Rules/blob/master/Global-Services/Dailymotion.list)
 
 - # [DAZN](https://github.com/LM-Firefly/Rules/blob/master/Global-Services/DAZN.list)

@@ -169,6 +169,10 @@ payload:
   - DOMAIN-SUFFIX,cnnarabic.com
   - DOMAIN-SUFFIX,cnnlabs.com
   - DOMAIN-SUFFIX,cnnmoney.ch
+  ## > CW Seed
+  - DOMAIN-SUFFIX,cwseed.com
+  - DOMAIN-SUFFIX,cwtv.com
+  - DOMAIN-SUFFIX,thecwvideo.com
   ## > Dailymotion
   - DOMAIN-SUFFIX,dai.ly
   - DOMAIN-SUFFIX,dailymotion.com
