@@ -10,8 +10,6 @@
 
 - # [Americasvoice](https://github.com/LM-Firefly/Rules/blob/master/Clash-RuleSet-Classical/Global-Services/Americasvoice.yaml)
 
-- # [AppleDaily](https://github.com/LM-Firefly/Rules/blob/master/Clash-RuleSet-Classical/Global-Services/AppleDaily.yaml)
-
 - # [ATTWatchTV](https://github.com/LM-Firefly/Rules/blob/master/Clash-RuleSet-Classical/Global-Services/ATTWatchTV.yaml)
 
 - # [Bahamut](https://github.com/LM-Firefly/Rules/blob/master/Clash-RuleSet-Classical/Global-Services/Bahamut.yaml)

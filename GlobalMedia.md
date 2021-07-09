@@ -10,8 +10,6 @@
 
 - # [Americasvoice](https://github.com/LM-Firefly/Rules/blob/master/Global-Services/Americasvoice.list)
 
-- # [AppleDaily](https://github.com/LM-Firefly/Rules/blob/master/Global-Services/AppleDaily.list)
-
 - # [ATTWatchTV](https://github.com/LM-Firefly/Rules/blob/master/Global-Services/ATTWatchTV.list)
 
 - # [Bahamut](https://github.com/LM-Firefly/Rules/blob/master/Global-Services/Bahamut.list)
