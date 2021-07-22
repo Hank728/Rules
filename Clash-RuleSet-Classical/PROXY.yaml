@@ -4120,6 +4120,7 @@ payload:
   - DOMAIN-SUFFIX,mcdonaldsparties.com.au
   - DOMAIN-SUFFIX,xn--qhrx81fxh2a.xn--55qx5d.hk
   ## > Mega
+  - PROCESS-NAME,mega.privacy.android.app
   - DOMAIN-SUFFIX,mega.co.nz
   - DOMAIN-SUFFIX,mega.io
   - DOMAIN-SUFFIX,mega.nz
