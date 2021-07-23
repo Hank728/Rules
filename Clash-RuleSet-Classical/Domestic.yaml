@@ -1156,6 +1156,7 @@ payload:
   - DOMAIN,0gr4uqmtt8y41hcjz8yzdnc31.ourdvsss.com
   - DOMAIN,0gr4uqmtt8y41hcjz8yzdnc3t.ourdvsss.com
   - DOMAIN,1gr4uqmtt8y41hcjigazdqca.ourdvsss.com
+  - DOMAIN,4go41hcjtgazdoctqge4o.ourdvsss.com
   - IP-CIDR,45.43.32.234/32,no-resolve
   - IP-CIDR,106.75.74.76/32,no-resolve
   - IP-CIDR,111.206.25.147/32,no-resolve
