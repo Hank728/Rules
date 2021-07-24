@@ -225,8 +225,8 @@ tls-provider = openssl
 exclude-simple-hostnames = true
 skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local
 force-http-engine-hosts = 122.14.246.33, 175.102.178.52, mobile-api2011.elong.com
-internet-test-url = http://cp.cloudflare.com
-proxy-test-url = http://cp.cloudflare.com
+internet-test-url = https://connectivitycheck.gstatic.com/generate_204
+proxy-test-url = https://connectivitycheck.gstatic.com/generate_204
 test-timeout = 3
 
 [Replica]
@@ -331,8 +331,8 @@ STATE,AUTO
 dns_exclusion_list = *.cmbchina.com, *.cmpassport.com, *.jegotrip.com.cn, *.icitymobile.mobi, *.pingan.com.cn, id6.me
 excluded_routes=10.0.0.0/8, 127.0.0.0/8, 169.254.0.0/16, 192.0.2.0/24, 192.168.0.0/16, 198.51.100.0/24, 224.0.0.0/4
 geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://github.com/KOP-XIAO/QuantumultX/raw/master/Scripts/IP_API.js
-network_check_url=http://cp.cloudflare.com
-server_check_url=http://cp.cloudflare.com
+network_check_url=https://connectivitycheck.gstatic.com/generate_204
+server_check_url=https://connectivitycheck.gstatic.com/generate_204
 
 [dns]
 server=119.29.29.29
@@ -419,8 +419,8 @@ socks-port = 8829
 wifi-access-http-port=8838
 wifi-access-socks5-port=8839
 test-timeout = 5
-internet-test-url = http://cp.cloudflare.com
-proxy-test-url = http://cp.cloudflare.com
+internet-test-url = https://connectivitycheck.gstatic.com/generate_204
+proxy-test-url = https://connectivitycheck.gstatic.com/generate_204
 
 {% endif %}
 {% if request.target == "sssub" %}
