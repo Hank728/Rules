@@ -1,6 +1,7 @@
 payload:
   ## 📺 哔哩哔哩
   ## > Bilibili
+  - PROCESS-NAME,com.bilibili.app.in
   - PROCESS-NAME,tv.danmaku.bili
   - DOMAIN-SUFFIX,acg.tv
   - DOMAIN-SUFFIX,acgvideo.com

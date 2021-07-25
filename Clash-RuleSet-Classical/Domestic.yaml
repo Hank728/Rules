@@ -1107,6 +1107,7 @@ payload:
   - DOMAIN-SUFFIX,zhanqi.tv
   - DOMAIN-SUFFIX,zhanqu.tv
   ## > 哔哩哔哩
+  - PROCESS-NAME,com.bilibili.app.in
   - PROCESS-NAME,tv.danmaku.bili
   - DOMAIN-SUFFIX,acg.tv
   - DOMAIN-SUFFIX,acgvideo.com
