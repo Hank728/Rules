@@ -1252,6 +1252,11 @@ payload:
   - DOMAIN-SUFFIX,yipai.info
   - DOMAIN-SUFFIX,yipai360.com
   - DOMAIN-SUFFIX,ypjc.cloud
+  ## > 城通网盘
+  - DOMAIN-SUFFIX,ctfile.com
+  - DOMAIN-SUFFIX,ctfile.net
+  - DOMAIN-SUFFIX,n802.com
+  - DOMAIN-SUFFIX,tv002.com
   ## > CKJR (创客匠人)
   - DOMAIN-SUFFIX,51ckjr.com
   - DOMAIN-SUFFIX,ckjr001.cn
@@ -7050,7 +7055,6 @@ payload:
   - DOMAIN-SUFFIX,csg99.com
   - DOMAIN-SUFFIX,csslcloud.net
   - DOMAIN-SUFFIX,cstxt.com
-  - DOMAIN-SUFFIX,ctfile.com
   - DOMAIN-SUFFIX,ctiforum.com
   - DOMAIN-SUFFIX,ctoutiao.com
   - DOMAIN-SUFFIX,ctsbw.com
