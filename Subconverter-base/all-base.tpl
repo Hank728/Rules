@@ -31,7 +31,7 @@ dns:
   ipv6: true
 {% endif %}
 {% if request.clash.dns == "tun" %}
-ipv6: false
+ipv6: true
 tun:
   enable: true
   stack: system # or gvisor
@@ -44,10 +44,10 @@ hosts:
 dns:
   enable: true
 #  listen: 0.0.0.0:53
-  ipv6: false
+  ipv6: true
 {% endif %}
 {% if request.clash.dns == "cfa" %}
-ipv6: false
+ipv6: true
 tun:
   enable: true
   stack: system # or gvisor
@@ -60,7 +60,7 @@ hosts:
 dns:
   enable: true
   listen: 127.0.0.1:1053
-  ipv6: false
+  ipv6: true
 {% endif %}
 {% else %}
 ipv6: true
@@ -207,7 +207,7 @@ dns:
 {% if request.target == "surge" %}
 
 [General]
-ipv6 = false
+ipv6 = true
 loglevel = notify
 http-listen = 8829
 socks5-listen = 8828
@@ -427,7 +427,7 @@ test-timeout = 5
 {
   "route": "bypass-lan-china",
   "remote_dns": "dns.google",
-  "ipv6": false,
+  "ipv6": true,
   "metered": false,
   "proxy_apps": {
     "enabled": false,
